@@ -1,0 +1,33 @@
+div{
+    /* Chỉnh văn bản ra giữa */
+    text-align: center;
+}
+
+h1{
+    /* Chỉnh màu chữ */
+    color: #8a1313;
+}
+
+p{
+    /* Chỉnh font chữ */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Chỉnh cỡ chữ */
+    font-size: 22px;
+    /* Chỉnh in đậm */
+    font-weight: bold;
+    /* Chỉnh kiểu chữ */
+    font-style: italic;
+    text-decoration: underline;
+}
+
+body{
+    /* Chỉnh màu nền */
+    background-color: #d5eff5;
+}
+
+img{
+    /* Chỉnh kích thước ảnh */
+    height: 300px;
+    /* Chỉnh độ cong viền */
+    border-radius: 200px;
+}
