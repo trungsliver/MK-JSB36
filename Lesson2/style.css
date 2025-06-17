@@ -1,0 +1,38 @@
+/* Định dạng chung cho website */
+body{
+    /* Font chữ */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Khoảng cách */
+    margin: 0;
+    padding: 0;
+}
+
+/* Thanh điều hướng */
+nav{
+    /* Màu nền */
+    background-color: #333;
+}
+
+/* Chỉ CSS cho thẻ ul nằm bên trong thẻ nav */
+nav ul{
+    /* Kiểu hiện danh sách */
+    list-style: none;
+    /* Kiểu sắp xếp (hàng ngang) */
+    display: flex;
+}
+
+nav ul li a{
+    /* Hiển thị dạng khối */
+    display: block;
+    /* Màu chữ */
+    color: white;
+    /* Khoảng cách */
+    padding: 15px 20px;
+    /* Bỏ hiệu ứng gạch chân */
+    text-decoration: none;
+}
+
+/* Khi di chuột vào */
+nav ul li a:hover{
+    background-color: #575757;
+}
