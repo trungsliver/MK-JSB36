@@ -1,0 +1,49 @@
+img{
+    height: 200px;
+}
+
+/* Box model */
+.box{
+    background-color: bisque;
+    width: 250px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Padding: khoảng cách từ nội dung đến viền */
+    padding: 20px;
+    /* Margin: khoảng cách từ viền đến các đối tượng khác */
+    margin: 20px;
+}
+
+/* Box sizing */
+.container{
+    /* Xếp nằm ngang */
+    display: flex;
+    /* Khoảng cách giữa các thẻ */
+    gap: 30px;
+}
+
+.box1{
+    /* Chiều ngang */
+    width: 150px;
+    /* Màu nền */
+    background-color: lightblue;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Padding */
+    padding: 20px;
+    /* Box-sizing */
+    box-sizing: content-box;
+}
+
+.box2{
+    /* Chiều ngang */
+    width: 150px;
+    /* Màu nền */
+    background-color: lightblue;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Padding */
+    padding: 20px;
+    /* Box-sizing */
+    box-sizing: border-box;
+}

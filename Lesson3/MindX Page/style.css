@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    /* Chiều cao thanh navbar */
+    height: 80px;
+    /* Hiệu ứng bóng mờ */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+ul{
+    /* Bố cục hàng ngang */
+    display: flex;
+    /* Xóa ký hiệu danh sách */
+    list-style: none;
+}
+
+#logo{
+    /* Chiều cao */
+    height: 80px;
+}
+
+li{
+    margin-right: 40px;
+    box-sizing: border-box;
+    height: 80px;
+    line-height: 80px;
+    font-weight: bolder;
+}
+
+.container{
+    /* căn chỉnh lề */
+    text-align: center;
+    /* Cách bên trên */
+    margin-top: 20px;
+}
+
+.container img{
+    height: 500px;
+}
